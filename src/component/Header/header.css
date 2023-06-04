@@ -1,0 +1,328 @@
+
+
+
+.container{
+    background-color: rgb(0, 0, 0);
+
+    overflow: hidden;
+    position: fixed
+    ;
+
+    top: 0;
+    width: 100%;
+    
+ 
+
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+   
+    display: flex;
+    justify-content: flex-end;
+
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+    width: 100%;
+
+    
+  
+}
+.lol{
+    height: 50px;
+    width: 50px;
+    margin-right: 50rem;
+    padding: 1rem  ;
+    align-content: justify;
+    
+    
+
+}
+
+
+   
+ 
+
+.list {
+    display: flex;
+    justify-content: left;
+    margin-top: 1rem;
+    margin-right: 46px;
+
+
+
+    list-style-type: none;
+
+   gap: 1rem;
+
+   
+ 
+
+ 
+  
+  
+
+}
+ .list a{
+    
+    text-decoration: none;
+
+   
+    color: whitesmoke
+  
+    
+}
+a:hover{
+    color: red;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    box-sizing: border-box;
+    margin: -119px;
+    display: flex;
+    justify-content: flex-end;
+   
+
+    
+}
+@media screen and(min-width:400) {
+    .container{
+        display: flex;
+        justify-content: center;
+        
+        height: 12rem;
+       
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+}
+@media screen and (max-width:1084px) {
+    .container{
+       padding-top: -20rem;
+      
+      
+
+       
+        justify-content: center;
+        
+    }
+    .list{
+        justify-content: center;
+
+    }
+    .lol{
+        display: flex;
+        margin-right: 33rem;
+        padding: 3px;
+        margin-top: 10px;
+        
+
+        
+        
+    }
+    
+}
+@media screen and (max-width:650px) {
+    .container{
+
+        padding-bottom: 0rem;
+        height: 14rem;
+      
+       
+       
+        
+    }
+    .navbar{
+        margin-top: -4rem;
+    }
+    .navbar ul{
+    
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .lol{
+        display: flex;
+        margin-right: 33rem;
+        padding: 3px;
+        margin-top: 10px;
+        margin-left: 3rem;
+        
+
+        
+        
+    }
+    
+}
+
+
+
+
+
+
+/* 
+
+
+body{
+    padding: 0;
+    marginorder-box;: 0;
+    box-sizing: b
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:right;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: none; 
+    color: white;
+
+    
+   
+}
+li a{
+ 
+    text-decoration: none;
+    padding: 15px;
+    text-align: justify;
+    text-shadow: 0 0 black;
+    /* word-spacing: unset; */
+    /* justify-content: space-between; */
+    /* speak: digits; */
+    /* font-weight: lighter;
+    color: white;
+    margin-left: 61px;
+    justify-content: center;
+     */
+
+ 
+/*   
+}
+li  a:hover{
+    
+   
+    background-color: hsla(272, 100%, 93%, 0.907);
+    border-radius: 10px;
+    
+ 
+    color: rgb(230, 0, 0); */
+
+/* }
+.container{
+    padding: auto;
+    box-shadow: 10px 5px 5px wheat; */
+    /* display: flex;
+    background-color: rgb(193, 161, 235);
+    color: white;
+    
+    /* flex-direction: row; */
+    /* position: fixed;
+    width: -webkit-fill-available;
+    align-items: center;
+    justify-content: right;
+    flex-wrap: wrap;
+     */ 
+
+     /* display: flex;
+    background-color: blue;
+    color: white;
+    /* flex-direction: row; */
+    /* position: fixed;
+    width: -webkit-fill-available;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+} */
+ 
+
+/* 
+ .logo{
+    justify-content: left;
+    background-color: black;
+    border-radius: 15px ;
+    width: 4%;
+
+
+
+
+
+
+
+
+  
+    height: 4%;
+  
+}
+@media screen and (width<=571px) {
+    .container {
+     
+        width: auto;
+        position: relative;
+       
+        box-shadow: 10px 5px 5px wheat;
+        display: flex;
+        background-color: blue;
+        color: white;
+        /* flex-direction: row; */
+        /* position: fixed;
+        width: -webkit-fill-available;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: stretch;
+        justify-content: flex-end
+    }
+    }
+     */
+
+/* 
+
+*/
+    
+/* }
+@media screen and (width<=571px) {
+    .container img{
+   display: none;
+        
+      
+    }
+    
+}
+@media screen and (width<=571px) {
+    li{
+    margin: 4px;
+
+      
+    }
+    li:hover{
+        padding: 2px;
+
+    }
+    
+}  */
+
+
+    
+
+
+
+ 
+
+    
+       
+
+ 
+
+
+
+
+   
+
+

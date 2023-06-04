@@ -1,0 +1,127 @@
+.form-control {
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+  padding: auto;
+  margin: auto;
+  margin-top: 8rem;
+}
+input {
+  border-radius: 1rem;
+  margin: 0.65rem;
+  width: 20rem;
+  height: 2rem;
+}
+form {
+  margin: 15rem;
+}
+.desc {
+  height: 12rem;
+}
+.form-container {
+  display: flex;
+
+  justify-content: center;
+}
+label {
+  margin-left: 1rem;
+}
+.form-control button {
+  height: 3rem;
+  background: aquamarine;
+  width: 5rem;
+  text-align: center;
+
+  border-radius: 15px;
+}
+
+.message-input {
+
+  padding-bottom: 50px;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+
+
+.name-invalid {
+  color: red;
+  margin: 0rem;
+  text-align: end;
+  margin-right: 14px;
+  font-family: ui-monospace;
+  font-size: 15px;
+  font-style: normal;
+}
+
+
+.Name-conrolnvalid{
+    color: brown;
+    
+}
+.btn{
+  display: flex;
+  justify-content:  center;
+}
+.btn:hover{
+  border: 2px solid black;
+  background-color: rgba(15, 15, 231, 0.688);
+  cursor:move;
+
+}
+.Invalid{
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+}
+
+@media screen and (max-width:650px) {
+  .form-container{
+    display: flex;
+   
+  
+    
+  }
+  .form-control{
+    height: 21rem;
+    width: 22rem;
+    margin-left: 5rem;
+    margin-top: 19rem;
+    text-align: center;
+
+    
+  }
+  .form {
+    margin: 8rem;
+  }
+  input {
+    border-radius: 0.5rem;
+
+    width: 10rem;
+    height: 1rem;
+  }
+  .message-input {
+
+    padding-bottom: 20px;
+    border-radius: 1rem;
+    cursor: pointer;
+  }
+  form{
+    height: 12rem;
+
+  }
+  .form-control button {
+    height: 2rem;
+    background: aquamarine;
+    width: 4rem;
+    text-align: center;
+    margin-top: -6rem;
+  
+    border-radius: 0.5rem;
+  }
+
+  
+  
+  
+}

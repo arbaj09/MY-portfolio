@@ -1,0 +1,175 @@
+.Container-about{
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 100;
+    justify-content: center;
+    margin-top: 7rem;
+   
+    
+
+   
+   
+
+   
+  
+   
+   
+    
+}
+.about{
+    /* border: 2px solid red; */
+    text-overflow: clip;
+    height: 50rem ;
+    width: 100rem;
+    
+    
+
+
+
+}
+.about p :hover{
+    color: red;
+    text-transform:uppercase;
+   cursor:pointer ;
+    border: 2px solid rgba(0, 0, 0, 0.085);  
+       
+
+}
+.about h1:hover{
+    color: red;
+    text-transform:uppercase;
+   cursor:pointer ;
+     
+       
+
+}
+
+
+ 
+    
+
+
+  
+.about p{
+    font-weight: bold;
+    font-size: larger;
+
+    
+    border: 3px solid rgb(0, 0, 0);
+ 
+    box-shadow: rgb(251, 246, 246) 0px 5px 15px;
+
+ 
+    
+
+ 
+ 
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+    font-family: fantasy;
+    text-align: center;
+    /* margin-left: 25rem; */
+
+
+ 
+
+
+    
+}
+.Para-One{
+     
+    width: 30rem;
+    height: 20rem;
+
+    margin-left: 45rem;
+
+
+
+
+}
+.para-Two{
+    margin-bottom: 12rem;
+     
+    width: 30rem;
+    height: 20rem;
+
+    margin-left: 30rem; 
+    
+
+
+}
+.about h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:oblique;
+    font-weight: lighter;
+   
+    
+}
+@media screen and (max-width:650px) {
+    .Container-about{
+        width: 43rem;
+        margin-top: 4rem;
+        display: flex;
+     
+    
+       justify-content: center;
+
+    }
+    .Para-One{
+        margin-right: 12rem;
+        margin-left: 3rem;
+
+     
+      
+        width: 9rem;
+        height: 30rem;
+ 
+    
+    
+    
+    
+    }
+    .para-Two{
+    
+ 
+
+         
+        width: 20rem;
+        height: 30rem;
+    
+ 
+        
+    
+    
+    }
+    .about{
+       
+        margin-top: 10rem;
+        justify-content: center;
+       
+       
+     display: flex;
+     
+     flex-direction: column;
+        
+    
+    
+    
+    }
+    .about p{
+        margin-left: 10rem;
+    }
+    .about h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style:oblique;
+        font-weight: lighter;
+    }
+    .about{
+        width: 43rem;
+    }    
+    
+}
+
